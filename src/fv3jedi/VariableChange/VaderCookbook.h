@@ -33,6 +33,12 @@ namespace fv3jedi {
       {"air_pressure_thickness",       {"AirPressureThickness_A"}},
       // ps: from delp
       {"air_pressure_at_surface",      {"SurfaceAirPressure_A"}},
+      
+      {"dry_air_density",                   {"DryAirDensity_A"}},
+      {"dry_air_density_levels_minus_one",  {"DryAirDensityLevelsMinusOne_A"}},
+      {"mass_density_of_particulate_matter_2p5_in_air", {"ParticulateMatter2p5_A",
+                               "ParticulateMatter2p5_B"}},
+      
       // tv: from t and q
       {"virtual_temperature",          {"AirVirtualTemperature_A"}}
     };
